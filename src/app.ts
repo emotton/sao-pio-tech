@@ -4,7 +4,7 @@ import routes from './routes';
 const app = express();
 
 app.get("/", (req, res)=>{
-  res.send("<h1>São Pio Tech</h1>");
+  res.send("<h1>São Pio Tech !!!</h1>");
 });
 
 app.use(express.json());
